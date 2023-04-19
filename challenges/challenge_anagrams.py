@@ -14,5 +14,3 @@ def is_anagram(first_string, second_string):
         else:
             return False
     return True
-
-    for now in second:
