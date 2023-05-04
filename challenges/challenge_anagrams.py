@@ -11,4 +11,6 @@ def is_anagram(first_string, second_string):
     for row in first:
         if row in second:
             second.remove(row)
-
+        else:
+            return False
+    return True
